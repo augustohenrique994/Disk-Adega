@@ -1,0 +1,669 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+       
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    
+
+
+}
+a :hover{
+    opacity: 0.7;
+
+}
+
+.logo{
+    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    
+
+    
+}
+.logoimg {
+    width: 34.5%;
+    border: solid whitesmoke 0.1vw;
+    margin-top: 0.5vh;
+}
+
+@media (max-width: 999px) {
+    .logo{
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+          
+    }
+    .logoimg {
+        width: 29%;
+        border: solid whitesmoke 0.2vw;
+    }
+
+    
+
+   
+}
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4e0a0a;
+    height: 17vh;
+}
+
+main    {
+    background: url(./Assets/fundo_disk.jpg) no-repeat center center ;
+    background-size: cover;
+    height: 78vh;
+    border: solid 2px whitesmoke;
+    
+    
+}
+
+
+
+
+.footer {
+
+    background-color: #4e0a0a;
+    height: 18vh;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2.5px solid #ffffff;
+   
+  }
+
+
+
+
+F{
+    color: whitesmoke;
+    
+    font-size: 3rem;
+      
+}
+
+.texto{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto2{
+    margin-top: 16vh;
+    margin-left: 9vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto3{
+    margin-left: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto_info{
+    text-align: center;
+    margin: 5vh;
+  
+}
+
+.texto_ligue{
+    margin-left: -16vw;
+    font-size: 2vw;
+}
+.texto_telefone{
+    margin-left:-32vw;
+    font-size: 4vw;
+    margin-top: 2vh;
+
+
+}
+
+.texto_disk{
+    position: absolute;
+    margin-left:-20vw;
+    font-size: 2vw;
+    margin-top: 2vh;
+
+}
+
+.texto_email{
+    margin-left:-32vw;
+    font-size: 2vw;
+    margin-top: 2vh;
+
+}
+
+
+
+.direito{
+margin-left: 4vw;
+}
+
+.imagem_fixa{
+    width: 20vw;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 8px;
+    border: solid 3px transparent;
+    background-color: #4e0a0a07;
+}
+
+
+
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-left: 15vw;
+}
+
+.nav-list li{
+    letter-spacing: 1px;
+    margin-left: 6vh;
+    margin-top: 3vw;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+   
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+
+    }
+    
+
+    main .selo_contato{
+        margin-top: 130.5vh;
+        width: 12vw;
+    }
+
+    
+    .contai .selo{
+        margin-left: 39vw;
+        
+        width: 9vw;
+    }
+
+    
+    .nav-list {
+        position: absolute;
+         top: 17vh;
+         right: 0;
+         width: 50vw;
+         height: 77.7vh;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         transform: translateX(100%);
+         transition: transform 0.3s ease-in;
+         background-color: #4e0a0a;
+        }
+        .nav-list li {
+            margin-left: 0;
+            opacity: 0;
+
+        } 
+        .mobile-menu {
+            display: block;
+        }
+        .nav-list.active{
+            transform: translateX(0);
+
+        }
+
+        .nav-list .botao_menu_wpp  {
+            width: 8vw;
+            margin-top: -2vh;
+            
+        }
+        
+        .nav-list .botao_menu_insta  {
+            width: 8vw;
+            margin-top: -2vh;       
+        }
+      main.footer h3 {
+            color: whitesmoke;
+            font-size: 6vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            font-weight: 500;
+        }
+        main .footer h4{
+            color: whitesmoke;
+            font-size: 2.5vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        main .footer h6{
+            color: whitesmoke;
+            font-size: 1.5vw;
+            font-style: none;
+            font-weight: 200;
+            margin-left: 80vw;
+            margin-top: 2vh;
+        
+        
+        }
+
+        nqv .footer h3 {
+            color: whitesmoke;
+            font-size: 6vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            font-weight: 500;
+        }
+        nav .footer h4{
+            color: whitesmoke;
+            font-size: 2.5vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            font-weight: 400;
+            text-align: center;
+        }
+        
+         nav .footer h6{
+            color: whitesmoke;
+            font-size: 1.5vw;
+            font-style: none;
+            font-weight: 200;
+            margin-left: 80vw;
+            margin-top: 2vh;
+        
+        
+        }
+
+       
+
+}
+
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    } to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+
+}
+
+
+
+/*social*/
+
+
+.social .contain {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #c9c9c9;
+    height: 78vh;
+}
+
+
+
+.social h2 {
+    display: flex;
+    padding: 20px;
+    background-color: rgba(104, 104, 104, 0.432);
+    border-radius: 20px;
+    align-self: center; 
+    justify-self: center;
+    text-align: center;
+    color: #88003f;
+    margin: 0;
+}
+
+.social .pontos {
+    display: flex;
+}
+
+.social .ponto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+}
+
+.social .ponto img {
+    width: 10vw;
+    align-self: center;
+}
+
+.social .ponto h4 {
+    color: #860012;
+    margin-top: 30px;
+    font-size: 2vw;
+    margin: 5vh;
+}
+
+.social .ponto p{
+    font-size: 2vw;
+    margin: 3vh;
+}
+
+
+/* contatos */
+
+
+.contai{
+    background-image: url(./Assets/taças2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 108vh;
+ 
+
+     
+}
+
+
+.contai img{
+    margin-left: 40vw;
+    
+    width: 18vw;
+}
+
+.contai .selo{
+    margin-left: 1vw;
+    margin-top: 75vh;
+    
+    width: 8vw;
+}
+
+.footer .selo_inicial{
+    width: 8vw;
+    margin-left: 1vw;
+}
+
+
+div .quem_somos{
+    color: rgb(185, 185, 185);
+    font-style: italic;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+    margin-left: -50vw;
+    
+    
+}
+
+.contai h3{
+    display: grid;
+    height: 98vh;
+    margin-left: 2vw;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 2.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+main h3, h2{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4vw;
+    font-weight: 350;
+    margin-top: 7vh;
+    height: 2vh;
+
+}
+
+
+main span img{
+    width: 30vw;
+   
+    margin-left: 5vw;
+    
+}
+
+
+main .selo{
+    position:absolute;
+    width: 7vw;
+    margin-top:  98vh;
+  
+}
+
+.selo_contato{
+    margin-top: 121vh;
+    width: 7vw;
+}
+
+
+
+
+
+.botao_menu_wpp  {
+    width: 4vw;
+    margin-top: -2vh;
+    
+}
+
+.botao_menu_insta  {
+    width: 4vw;
+    margin-top: -2vh;
+
+    
+    
+    
+
+}
+
+
+
+
+/*formulario*/
+
+.formuario{
+    border: solid 2px #4e0a0a;
+    margin: 5vh;
+  
+}
+
+.box{
+    background-color: #4e0a0a8c;
+    background-image: url(./Assets/fundo_form.jpg)  ;
+    
+
+    width: 45%;
+    border: transparent solid 2px;
+    margin-left: 53%;
+    margin-top: -15%;
+
+    
+    
+    
+    
+   
+    
+}
+
+.box_form{
+    
+    margin: 10px;
+margin-left:5.5vw;
+
+}
+ 
+
+ h1{
+    font-size: 3vw;
+    color: #f3f3f3(0, 0, 0);
+    margin-bottom: 2vw;
+    text-align: center;
+    margin-left: 50vw;
+    line-height: 1.2;
+
+}
+
+h1::before{
+    content: "📧";
+    display: block ;
+}
+
+
+
+.form{
+width: 100%;
+max-width: 33rem;
+font-size: 1.125rem;
+
+
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button{
+    display: block;
+    width:100%;
+}
+.form label{
+    color: #ffffff(0, 0, 0);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea{
+    font: inherit;
+    padding: 0.8vw;
+    margin-bottom: 1rem;
+    border :1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize:vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: #973945;
+    box-shadow: 0 0 0 3px #88003f;
+}
+.form button {
+    display: block;
+    padding: 1rem;
+    background:#973945;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+ 
+.form button:hover,
+.form button:focus{
+    outline: none;
+    background: #860012;
+}
+
+.formulario{
+    background: url(./Assets/backgraud_form.jpg) no-repeat center center ;
+    background-size: cover;
+    
+    
+}
+
+h1, label{
+    color: rgb(241, 241, 241);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+
+/*Footer */
+    
+.footer h3 {
+    color: whitesmoke;
+    font-size: 3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: 500;
+}
+.footer h4{
+    color: whitesmoke;
+    font-size: 1.8vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer h6{
+    color: whitesmoke;
+    font-size: 1vw;
+    font-style: none;
+    font-weight: 200;
+    margin-left: 80vw;
+
+
+}
+
+
+    
+    
+  
+
+
+
